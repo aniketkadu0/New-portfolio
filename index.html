@@ -606,12 +606,13 @@
         /* Updated mobile header layout */
         .header-content {
           flex-direction: row; /* Keep as row */
-          justify-content: space-between; /* Space items */
+          justify-content: flex-start; /* Space items */
           align-items: center;
           text-align: right; /* Aligns the logo text to the right */
         }
 
         .logo {
+          margin-left: 20px;
           order: 2; /* Places the logo on the right */
         }
 
@@ -624,7 +625,7 @@
           display: none;
           flex-direction: column;
           position: absolute;
-          top: 70px;
+          top: 60px;
           left: 0;
           width: 100%;
           background-color: var(--dark-bg);
@@ -634,6 +635,7 @@
 
         .nav-links.active {
           display: flex;
+          align-items: center;
         }
 
         nav ul li {
@@ -738,13 +740,6 @@
               MVC for backend development, along with ReactJS and AngularJS for
               crafting responsive and interactive frontend interfaces. I am also
               proficient in database design and optimization using SQL Server.
-            </p>
-            <p>
-              I pride myself on my ability to collaborate effectively with
-              cross-functional teams, optimize application performance, and
-              deliver high-quality code that meets business objectives. I am
-              always eager to learn new technologies and methodologies to stay
-              at the forefront of software development practices.
             </p>
           </div>
         </div>
